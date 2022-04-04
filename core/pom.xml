@@ -28,7 +28,7 @@
   <parent>
     <artifactId>verapdf-library</artifactId>
     <groupId>org.verapdf</groupId>
-    <version>1.21.0-SNAPSHOT</version>
+    <version>1.21.0-SNAPSHOT-mvd</version>
   </parent>
 
   <artifactId>core</artifactId>
@@ -44,7 +44,7 @@
     <dependency>
       <groupId>org.verapdf</groupId>
       <artifactId>verapdf-xmp-core</artifactId>
-      <version>${project.version}</version>
+      <version>1.21.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
