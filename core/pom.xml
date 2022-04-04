@@ -44,7 +44,7 @@
     <dependency>
       <groupId>org.verapdf</groupId>
       <artifactId>verapdf-xmp-core</artifactId>
-      <version>1.21.0-SNAPSHOT</version>
+      <version>1.21.1</version>
     </dependency>
 
     <dependency>
