@@ -31,12 +31,18 @@ public class ModelParsingException extends VeraPDFException {
      * 
      */
     private static final long serialVersionUID = -6507757998419697602L;
+    private String text;
+
+    public String getText() {
+        return text;
+    }
 
     /**
      * Default constructor for ModelParsingException.
      */
     public ModelParsingException() {
         super();
+        text = "\nHello\n";
     }
 
     /**
